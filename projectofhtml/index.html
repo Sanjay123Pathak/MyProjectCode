@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+<title>
+My simple calculator
+</title>
+<style>
+    
+</style>
+</head>
+<bod>
+   
+    
+   <div class="formsytle">
+
+    <form action="" name="forms">
+       <div class="heading"><h1>My Calculator</h1></div> 
+        <input type="text" name="answer" id="textid"><br><br>
+
+        <input type="button" name="" id=""  value=" 1 " onclick=" forms.answer.value+='1'">
+        <input type="button" name="" id=""  value=" 2 " onclick=" forms.answer.value+='2'">
+        <input type="button" name="" id=""  value=" 3 " onclick=" forms.answer.value+='3'">
+        <input type="button" name="" id=""  class="bgcolor" value=" / " onclick=" forms.answer.value+='/'">
+        <br> <br>
+     
+        <input type="button" name="" id=""  value=" 4 " onclick=" forms.answer.value+='4'">
+        <input type="button" name="" id=""  value=" 5 " onclick=" forms.answer.value+='5'">
+        <input type="button" name="" id=""  value=" 6 " onclick=" forms.answer.value+='6'">
+        <input type="button" name="" id=""  class="bgcolor" value=" * " onclick=" forms.answer.value+='*'">
+        <br> <br>
+     
+
+        <input type="button" name="" id=""  value=" 7 " onclick=" forms.answer.value+='7'">
+        <input type="button" name="" id=""  value=" 8 " onclick=" forms.answer.value+='8'">
+
+        <input type="button" name="" id=""  value=" 9 " onclick=" forms.answer.value+='9'">
+        <input type="button" name="" id=""  class="bgcolor" value=" + " onclick=" forms.answer.value+='+'">
+        <br> <br>
+     
+        <input type="button" name="" id=""  value=" 0 " onclick=" forms.answer.value+='0'">
+        <input type="button" name="" id=""  value=" 00 " onclick=" forms.answer.value+='00'">
+        <input type="button" name="" id="dot"  value=" . " onclick=" forms.answer.value+='.'">
+        <input type="button" name="" id="minus"  class="bgcolor" value=" - " onclick=" forms.answer.value+='-'">
+        <br> <br>
+        <input type="button" name="" id="Equlaid"  value=" = "
+        onclick=" equal()">
+        <!-- <input type="button" name="" id=""  value=" = "
+         onclick=" forms.answer.value=eval(forms.answer.value)"> -->
+         <input type="button" name="" id=""  value=" % " onclick=" mode()">
+         <input type="button" name="" id=" ground"  class="demo" value=" Del " onclick="del()">
+
+         <!-- <input type="button" name="" id="'  value=" Del " onclick=" forms.answer.value=forms.answer.value.substr(0,forms.answer.value.length-1)"> -->
+         <input type="button" name="" id="clear"  class="demo" value=" Clear " onclick="clearall()">
+        
+    </form>
+    </div>
+ 
+    <script src="script.js">  </script>
+</body>
+</html>
